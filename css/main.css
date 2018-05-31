@@ -1,0 +1,75 @@
+body {
+    margin-top: 10px;
+    padding: 0px;
+    background: #dbdbdb;
+    font-family: 'Raleway', sans-serif;
+}
+
+.logo {
+    max-width: 100%;
+    max-height: 100%;
+    width: 13%;
+    height: 65%;
+}
+
+.header-content {
+    float: right;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    padding-bottom: 2px;
+    border-bottom: 3px solid #cfcfcf;
+}
+
+.featured-work h3 {
+  color: #7d97ad;
+  letter-spacing: 2px;
+  padding-top: 15px;
+}
+
+.featured-work h4 {
+  letter-spacing: 1.5px;
+}
+
+.project img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.carousel-img-1 {
+  max-width: 100%;
+  max-height: 80%;
+  margin-top: 15px;
+}
+
+footer {
+  background: #808080;
+  letter-spacing: 1.2px;
+  padding: 8px;
+}
+
+.fa-phone {
+  transform: rotate(90deg);
+  font-size: 20px;
+}
+
+@media only screen and (max-width:770px) {
+    .logo {
+        width: 30%;
+        height: 80%;
+    }
+    .header-content .name {
+        font-size: 1.3rem;
+    }
+    .header-content p {
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width:390px) {
+    .logo {
+        width: 60%;
+        height: 65%;
+    }
+}
